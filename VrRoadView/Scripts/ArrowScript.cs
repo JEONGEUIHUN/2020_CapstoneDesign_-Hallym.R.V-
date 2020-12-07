@@ -11,15 +11,17 @@ public class ArrowScript : MonoBehaviour
     // 해당 화살표를 터치할때 바뀌는 Material
     public Material ClickMaterial;
     Material OriginalMaterial;
-
     // 메인 카메라
     GameObject cam;
 
     // 해당 물체에 마우스가 터치했을 때
     void OnMouseEnter()
     {
-        // 현재 오브젝트의 Material를 변경
-        gameObject.GetComponent<MeshRenderer>().material = ClickMaterial;
+        if (Move.normal)
+        {
+            // 현재 오브젝트의 Material를 변경
+            gameObject.GetComponent<MeshRenderer>().material = ClickMaterial;
+        }
     }
 
     // 해당 물체에 마우스가 떨어졌을 때
@@ -30,12 +32,15 @@ public class ArrowScript : MonoBehaviour
     }
 
     // 해당 물체를 마우스로 클릭했을 때
-    void OnMouseDown()
+    void OnMouseUp()
     {
-        // 카메라가 정지했을때만
-        if(cam.transform.position == new Vector3(0, 0, 0))
+        if (Move.normal)
         {
-            StartCoroutine(Move());
+            // 카메라가 정지했을때만
+            if (cam.transform.position == new Vector3(0, 0, 0))
+            {
+                StartCoroutine(Moving());
+            }
         }
     }
 
@@ -44,18 +49,12 @@ public class ArrowScript : MonoBehaviour
     {
         // 기존의 Material를 따로 저장
         OriginalMaterial = gameObject.GetComponent<MeshRenderer>().material;
-
+        
         // 메인 카메라 저장
         cam = GameObject.Find("Main Camera");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    IEnumerator Move()
+    IEnumerator Moving()
     {
         // 무한 반복문
         while(true)
