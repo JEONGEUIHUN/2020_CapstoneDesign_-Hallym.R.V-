@@ -43,7 +43,7 @@
 ### <VR 장비 VIVE 시연 영상 캡처>
 <img width = "500" src = "https://user-images.githubusercontent.com/58055104/101622639-a84cb880-3a5a-11eb-88f4-94281c4fe89f.png">
 
-> VR 장비 VIVE로 가상현실 세계에서 학교를 간접 경험하도록 구현했습니다.
+> VR 장비 VIVE로 가상세계에서 학교를 간접 경험하도록 구현했습니다.
 
 </br> 
 
