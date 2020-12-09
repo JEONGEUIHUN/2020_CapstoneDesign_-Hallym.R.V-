@@ -31,21 +31,21 @@
 ### <한림대 VR RoadView 시작화면>
 <img width = "500" src = "https://user-images.githubusercontent.com/58055104/100534621-4028f600-3254-11eb-88e8-25936242dfe8.png">
 
-
+</br> 
 
 ### <촬영 지점 표시한 학교 지도>
 <img width = "500" src= "https://user-images.githubusercontent.com/58055104/100536144-d0ba0300-3261-11eb-9775-4a520dd45257.jpg">
 
 > 학교 지도를 활용하여 중요 장소 및 촬영 동선 선정해서 계획적으로 했습니다.
 
-
+</br> 
 
 ### <VR 장비 VIVE 시연 영상 캡처>
 <img width = "500" src = "https://user-images.githubusercontent.com/58055104/101622639-a84cb880-3a5a-11eb-88f4-94281c4fe89f.png">
 
 > VR 장비 VIVE로 가상현실 세계에서 학교를 간접 경험하도록 구현했습니다.
 
-
+</br> 
 
 ### <Web서버에 올린 Unity>(http://caerang.hallym.ac.kr/vr/index.html)
 <img width ="500" src = "https://user-images.githubusercontent.com/58055104/100530191-21b20300-3232-11eb-9ba5-d924a6d0566e.png" >
@@ -76,6 +76,6 @@
 #### <번호판 가리기>
 <img width = "500" src = "https://user-images.githubusercontent.com/58055104/100536465-1a0b5200-3264-11eb-90d0-a82f07fbb71f.png">
 
-## 시연영상
+## <시연영상 링크>
 
 > https://youtu.be/hZwwqKXLcok
