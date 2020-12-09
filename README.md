@@ -71,10 +71,10 @@
 ### 2. 360사진 이미지 보정
 > 직접 찍은 360 사진들에는 자동차 번호판, 지나가는 사람들, 촬영자, 불필요한 요소 삭제 등 이미지 보정을 진행했습니다.
 
-<촬영자 삭제>
+<촬영자 삭제></br>
 <img width = "500" src = "https://user-images.githubusercontent.com/58055104/100536363-7a4dc400-3263-11eb-91d3-ab08da6d030c.png">
 
-<번호판 가리기>
+<번호판 가리기></br>
 <img width = "500" src = "https://user-images.githubusercontent.com/58055104/100536465-1a0b5200-3264-11eb-90d0-a82f07fbb71f.png">
 
 ## <시연영상 링크>
