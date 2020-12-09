@@ -21,16 +21,19 @@
 ## 개발환경 및 작품 설명
 > Unity를 사용해서 개발을 했으며 Unity WebGl Platform을 활용해서 Web 주소를 통해서 누구나 RoadView를 확인 할 수 있습니다.
 
-● VIVE VR 장비를 사용해서 한림대학교의 외부는 물론 내부까지 간접적으로 경험하실 수 있습니다.</br> 
+● **VIVE VR 장비**를 사용해서 한림대학교의 외부는 물론 내부까지 간접적으로 경험하실 수 있습니다.</br> 
 ● 한림대학교의 길과 구역에 이름이 있다는 것을 모르시는 분들을 위해 자신의 현재위치를 화면에 보여줌으로써 알게 될 것 입니다.</br> 
 ● 지도 선택으로 가고 싶은 곳을 선택하여 이동할 수 있습니다.</br> 
-● NPC를 구현해서 해당 건물의 설명 및 동영상 시청이 가능합니다.</br> 
+● **NPC**를 구현해서 **해당 건물의 설명 및 동영상 시청**이 가능합니다.</br> 
 ● 신입생은 물론 재학생까지 가보지 못한 길, 예상치 못한 곳에 길이 있는 것 등 알려드리기 위해 구현했습니다. </br> 
-● VR장비가 없으신 분들은 Web서버 주소를 통해 Unity 프로젝트를 올려서 누구나 접속이 가능 하도록 구현했습니다.</br> 
+● VR장비가 없으신 분들은 **Web서버 주소**를 통해 Unity 프로젝트를 올려서 **누구나 접속**이 가능 하도록 구현했습니다.</br> 
 
 ### 한림대 VR RoadView 시작화면
 <img width = "500" src = "https://user-images.githubusercontent.com/58055104/100534621-4028f600-3254-11eb-88e8-25936242dfe8.png">
-  
+
+### VR 장비 VIVE 시연 영상 캡처
+<img width = "500" src = "https://user-images.githubusercontent.com/58055104/101622639-a84cb880-3a5a-11eb-88f4-94281c4fe89f.png">
+
 ### Web서버에 올린 Unity(http://caerang.hallym.ac.kr/vr/index.html)
 <img width ="500" src = "https://user-images.githubusercontent.com/58055104/100530191-21b20300-3232-11eb-9ba5-d924a6d0566e.png" >
 
